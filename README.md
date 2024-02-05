@@ -67,25 +67,30 @@ Open your browser and go to http://localhost:3000 to access the application.
 
 API Endpoints
 User Authentication
+
 Signup:
+POST /users/register: Creates a new user account.
 
-POST /api/signup: Creates a new user account.
 Login:
+POST /users/login: Authenticates the user and generates a JWT token.
 
-POST /api/login: Authenticates the user and generates a JWT token.
+
 Medical Tasks
+
+
 Create Task:
+POST /tasks/new: Creates a new medical Schedule for the user.
+Get Tasks:/tasks/my For Geting all The Schedule 
 
-POST /api/tasks: Creates a new medical task for the user.
-Get Tasks:
 
-GET /api/tasks: Retrieves all tasks for the authenticated user.
 Update Task:
+PUT /tasks/:taskId: Updates an existing medical task.
 
-PUT /api/tasks/:taskId: Updates an existing medical task.
-Delete Task:
 
+Delete Task
 DELETE /api/tasks/:taskId: Deletes a medical task.
 Health Information
+
+
 Get Health Information:
-GET /api/health: Retrieves health information for the authenticated user, including heart rate, blood pressure, sugar level, etc.
+POST /info/health: Retrieves health information for the authenticated user, including heart rate, blood pressure, sugar level, etc.
