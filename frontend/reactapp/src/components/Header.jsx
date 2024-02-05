@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <nav className="header">
       <div>
-        <h2>Nirmal Health Moniter App</h2>
+        <h2>Nirmal Health Monitor App</h2>
       </div>
       <article>
         <Link to={"/"}>Home</Link>
