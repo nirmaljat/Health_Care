@@ -16,7 +16,7 @@ Health Care is a full-stack application designed to manage medical tasks, user a
   - Express
   - MongoDB 
   - CORS (for enabling cross-origin resource sharing)
-  - CRON (for Upading The Schedule Daliy at MidNight)
+  - CRON (for Upating The Schedule Daliy at MidNight)
 
 ## Getting Started
 
