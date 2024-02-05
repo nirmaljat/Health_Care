@@ -1,0 +1,13 @@
+# Ignore general files
+node_modules/
+build/
+dist/
+.env
+
+
+Backend/node_modules
+
+Backend/data/config.env
+
+
+frontend/reactapp/node_modules/
